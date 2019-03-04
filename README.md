@@ -3,7 +3,7 @@
 ## Setup
 
 - requires node v10.2, npm, git installed
-- git clone repo ``https://github.com/uts-cic/la-graphql-api.git``
+- git clone repo ``https://github.com/uts-cic/la-graphql-live.git``
 - ``npm install``
 - ``cp .env.default .env``
 - update .env 
