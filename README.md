@@ -1,12 +1,16 @@
 # la-graphql-api
 
+The LA-API provides an interface between educational data sources and learning analytics tools. GraphQL is used to modularise dependencies, providing flexibility for extending both sides of a complex learning ecosystem.
+
+![](img/LA-APIv2.jpg)
+
 ## Setup
 
 - requires node v10.2, npm, git installed
 - git clone repo ``https://github.com/uts-cic/la-graphql-live.git``
 - ``npm install``
 - ``cp .env.default .env``
-- update .env 
+- update .env
 - ``npm start ``
 - This will start server http://localhost:8080/graphql
 
@@ -28,13 +32,13 @@
     ├── schema.js               # graphql SDL
     ├── package.json            # npm packages required
     ├── LICENSE
-    └── README.md 
-    
+    └── README.md
+
 
 ## Development
 
 ``npm start`` will start nodemon and will keep checking for changes in the files and reload the server automatically
-For Production use PM2, forever or similar to keep node running. 
+For Production use PM2, forever or similar to keep node running.
 
 ## Contributions
 
@@ -42,7 +46,7 @@ For Production use PM2, forever or similar to keep node running.
 - Merge changes into the repo on a separate branch
 
 
-### FAQ 
+### FAQ
 	To add a new service
 - Decide the required output and add it to the `schema.js`
 `` type Book {
