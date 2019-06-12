@@ -7,7 +7,7 @@ The LA-API provides an interface between educational data sources and learning a
 ## Setup
 
 - requires node v10.2, npm, git installed
-- git clone repo ``https://github.com/uts-cic/graphql-la-api.git``
+- ``git clone https://github.com/uts-cic/graphql-la-api.git``
 - ``npm install``
 - ``cp .env.default .env``
 - update .env
