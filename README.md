@@ -2,7 +2,6 @@
 
 The LA-API provides an interface between educational data sources and learning analytics tools. GraphQL is used to modularise dependencies, providing flexibility for extending both sides of a complex learning ecosystem.
 
-![](img/LA-APIv2.jpg)
 
 ## Setup
 
